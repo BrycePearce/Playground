@@ -1,5 +1,4 @@
 import {
-  Link,
   Links,
   LiveReload,
   Meta,
@@ -23,8 +22,6 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Link to="/posts">Posts</Link>
-        {/* <a href="http://localhost:3000/posts">Posts</a> */}
         <Outlet />
         <ScrollRestoration />
         <Scripts />
